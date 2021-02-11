@@ -3,7 +3,7 @@ modern fortran syntax for kakoune editor
 
 just copy or link f90.kak to your autoload folder
 
-ipreferably use a colorscheme that distinguishes functions and keywords e.g. palenight
+preferably use a colorscheme that distinguishes functions and keywords e.g. palenight
 
 this provides syntax for how i prefer to code fortran, so, for example, i would code this:
 
