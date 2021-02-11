@@ -1,9 +1,9 @@
 # f90.kak
 modern fortran syntax for kakoune editor
 
-just copy or link f90.kak to your autoload folder
+just copy or link f90.kak to your autoload folder.
 
-preferably use a colorscheme that distinguishes functions and keywords e.g. palenight
+preferably use a colorscheme that distinguishes functions and keywords e.g. palenight.
 
 this provides syntax for how i prefer to code fortran, so, for example, i would code this:
 
@@ -14,6 +14,6 @@ i.e spaces ( ␣ ) before parenthesis and spaces between operators (+-/*). Not f
 2 spaces are used for indentation and gnu-fortran keywords and function are included.
 
 these defaults and behaviours, of course, can easily be changed be editing the .kak file
-using kakoune scripting.
+using kakoune's very flexible scripting. https://github.com/mawww/kakoune/tree/master/rc/filetype provides examples of syntax for other in-built languages.
 
 
