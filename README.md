@@ -11,7 +11,7 @@ this provides syntax for how i prefer to code fortran, so, for example, i would 
 
 i.e spaces ( ␣ ) before parenthesis and spaces between operators (+-/*). Not following these rules will result in syntax not showing correctly, which forces you to follow IMO better coding practices.
 
-2 spaces are used for indentation and gnu-fortran keywords and function are included.
+2 spaces are used for indentation and gnu-fortran keywords and functions are included.
 
 these defaults and behaviours, of course, can easily be changed be editing the .kak file
 using kakoune's very flexible scripting. https://github.com/mawww/kakoune/tree/master/rc/filetype provides examples of syntax for other built-in languages.
