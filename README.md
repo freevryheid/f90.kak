@@ -14,6 +14,8 @@ i.e spaces ( ␣ ) before parenthesis and spaces between operators (+-/*). Not f
 2 spaces are used for indentation and gnu-fortran keywords and function are included.
 
 these defaults and behaviours, of course, can easily be changed be editing the .kak file
-using kakoune's very flexible scripting. https://github.com/mawww/kakoune/tree/master/rc/filetype provides examples of syntax for other in-built languages.
+using kakoune's very flexible scripting. https://github.com/mawww/kakoune/tree/master/rc/filetype provides examples of syntax for other built-in languages.
+
+i'll continue to update this file as i come across missing elements. PR's welcome.
 
 
