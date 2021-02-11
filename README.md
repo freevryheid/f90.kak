@@ -13,7 +13,7 @@ i.e spaces ( ␣ ) before parenthesis and spaces between operators ( + - / * ). 
 
 2 spaces are used for indentation and gnu-fortran keywords and functions are included. both lower- and upper-case supported. this is strictly free-form format and I don't have plans right now to develop kak syntax for pre-f90 or fixed format files.
 
-these defaults and behaviours, of course, can easily be changed be editing the .kak file
+these defaults and behaviours, of course, can easily be changed by editing the .kak file
 using kakoune's very flexible scripting. https://github.com/mawww/kakoune/tree/master/rc/filetype provides examples of syntax for other built-in languages.
 
 i'll continue to update this file as i come across missing elements. PR's welcome.
