@@ -7,9 +7,9 @@ preferably use a colorscheme that distinguishes functions and keywords e.g. pale
 
 this provides syntax for how i prefer to code fortran, so, for example, i would code this:
 
-(x1␣-␣-3.1*sin(x)) as (␣x1␣-␣-3.1␣*␣sin(␣x␣)␣)
+(x1␣-␣-3.1i**sin(x)) as (␣x1␣-␣-3.1␣**␣sin(␣x␣)␣)
 
-i.e spaces (␣) before parenthesis and spaces between operators (+-/*)
+i.e spaces ( ␣ ) before parenthesis and spaces between operators (+-/*)
 
 2 spaces are used for indentation and gnu-fortran keywords and function are included.
 
