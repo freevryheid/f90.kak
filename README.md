@@ -18,5 +18,6 @@ using kakoune's very flexible scripting. https://github.com/mawww/kakoune/tree/m
 
 i'll continue to update this file as i come across missing elements. PR's welcome.
 
-an example shsowing the syntax using the palenight colorscheme is shown below:
+an example showing the syntax using the palenight colorscheme is shown below:
+
 <img src="example.png" alt="kak fortran syntax" />
