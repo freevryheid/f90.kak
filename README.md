@@ -9,7 +9,7 @@ this provides syntax for how i prefer to code fortran, so, for example, i would 
 
 (x1␣-␣-3.1\*sin(x)) as (␣x1␣-␣-3.1␣\*␣sin(␣x␣)␣)
 
-i.e spaces ( ␣ ) before parenthesis and spaces between operators (+-/*)
+i.e spaces ( ␣ ) before parenthesis and spaces between operators (+-/*). Not following these rules will result in syntax not showing correctly, which forces you to follow IMO better coding practices.
 
 2 spaces are used for indentation and gnu-fortran keywords and function are included.
 
