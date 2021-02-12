@@ -38,11 +38,11 @@ provide-module fortran %{
     add-highlighter shared/fortran/string1  region "'" "'" fill string
     add-highlighter shared/fortran/string2  region '"' '"' fill string
     add-highlighter shared/fortran/comment  region '!' '$' fill comment
-    add-highlighter shared/fortran/code/ regex (?i)\W-?\d+[de]?[+-]?\d* 0:value
+    add-highlighter shared/fortran/code/ regex (?i)\b[+-]?(\d*\.)?\d*([edq][+-]?\d+)?(_\w+)?\b 0:value
     add-highlighter shared/fortran/code/ regex (?i)\b(in|out|inout)\b 0:value
     add-highlighter shared/fortran/code/ regex (?i)\.\b(true|false)\b\. 0:value
     add-highlighter shared/fortran/code/ regex (?i)\.\b(and|or|not|eqv|neqv|eq|ne|gt|lt|ge|le)\b\. 0:operator
-    add-highlighter shared/fortran/code/ regex \s(\+|-|/|\*|=|/=|<|>)\s 0:operator
+    add-highlighter shared/fortran/code/ regex \s*(\+|-|/|\*|=|/=|<|>)\s* 0:operator
     add-highlighter shared/fortran/code/ regex (?i)\b(assign|backspace|block|data|call|close|common|continue|data|dimension|do|else|if|end)\b 0:keyword
     add-highlighter shared/fortran/code/ regex (?i)\b(endfile|endif|entry|equivalence|external|format|function|goto|inquire|intrinsic|open)\b 0:keyword
     add-highlighter shared/fortran/code/ regex (?i)\b(parameter|pause|print|program|read|return|rewind|rewrite|save|stop|subroutine|then|write|enddo)\b 0:keyword
