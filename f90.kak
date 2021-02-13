@@ -88,7 +88,7 @@ define-command -hidden fortran-indent-on-new-line %{
        # indent after certain keywords
        try %{ execute-keys -draft k <a-x> <a-k> (?i)(if|then|contains|else)\h*$<ret> j <a-gt> }
        # indent lines that start with certian keywords
-       try %{ execute-keys -draft k <a-x> <a-k> (?i)(do|interface)\s.*$<ret> j <a-gt> }
+       try %{ execute-keys -draft k <a-x> <a-k> (?i)(do|interface|case)\s.*$<ret> j <a-gt> }
        # indent lines that start with certian keywords
        try %{ execute-keys -draft k <a-x> y <a-k> (?i)^\h*(program|subroutine|function|module)\s.*$<ret> p p j j I end <space> <esc> k <a-b> <semicolon> 2W d <a-gt>}
     }
