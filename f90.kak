@@ -4,7 +4,7 @@
 # Detection
 # ‾‾‾‾‾‾‾‾‾
 
-hook global BufCreate .*\.(f90|f95|f03|f08|F90|F95|F03|F08) %{
+hook global BufCreate .*\.(f|f90|f95|f03|f08|F90|F95|F03|F08) %{
     set-option buffer filetype fortran
 }
 
